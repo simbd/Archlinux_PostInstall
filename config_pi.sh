@@ -73,16 +73,20 @@ f_action_aur_install() {
 	fi
 }
 
-# Récupération paquet AppImage + droit d'execution
+# Récupération de paquet universel portable au format AppImage (+ ajout du droit d'execution)
 f_action_get_appimage() {
 	if [[ "$GUI" == *"$1"* ]]
 	then
 		echo "$NS_INSTALL $1 ..."
 		echo ""
-		notify-send -i system-software-update "$MY_PROG" "$NS_INSTALL $1" -t 5000
+		notify-send -i system-software-update "$MY_PROG" "$NS_INSTALL $1" -t 2000
 		cd $DOWNLOAD_DIR
+	    if [ ! -d $HOME/AppImage ]
+	    then
+	        mkdir $HOME/AppImage  
+	    fi
 		wget "$2" --no-check-certificate
-		chmod u+x "${2##*/}"
+		chmod +x *.?pp?mage && mv *.?pp?mage $HOME/AppImage/
 	fi
 }
 
