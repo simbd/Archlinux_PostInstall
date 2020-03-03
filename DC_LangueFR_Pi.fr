@@ -401,6 +401,9 @@ CD_SOUNDJUICER="Pour extraire les pistes audios d'un cd"
 CA_SWEETHOME="Sweethome 3D"
 CD_SWEETHOME="Aménagement d'intérieur pour dessiner les plans d'une maison, placement des meubles..."
 
+CA_SYNFIG="Synfig Studio"
+CD_SYNFIG="Logiciel libre d'animation vectorielle 2D pour produire des films d'animation de qualité"
+
 CA_UNITY3DEDITOR="Unity3D Editor {AUR}"
 CD_UNITY3DEDITOR="Editeur pour le moteur de jeu  3D 'Unity' développé par Unity Technologies"
 
