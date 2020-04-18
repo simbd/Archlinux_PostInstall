@@ -740,7 +740,7 @@ CA_BITWARDEN="BitWarden {AUR}"
 CD_BITWARDEN="Gestionnaire de mots de passe open source qui permet de générer/conserver des mots de passe de manière sécurisée"
 
 CA_CISCOVPN="Cisco VPN (via module OpenConnect de NetworkManager)"
-CD_CISCOVPN="Permet la connexion au VPN Cisco dans NetworkManager (pour Gnome) sans passer par AnyConnect Secure Mobility"
+CD_CISCOVPN="Permet la connexion au VPN Cisco dans NetworkManager sans passer par AnyConnect Secure Mobility"
 
 CA_CRYPTER="Crypter {APPIMAGE}"
 CD_CRYPTER="Permet de chiffrer/déchiffrer des fichiers simplement"
