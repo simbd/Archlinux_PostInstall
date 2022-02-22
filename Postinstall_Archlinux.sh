@@ -35,6 +35,7 @@ GUI=$(zenity --list --checklist --height 700 --width 950 \
     $(chkDef "FALSE") "$CA_BRAVE" "$CD_BRAVE" \
     $(chkDef "TRUE") "$CA_CHROMIUM" "$CD_CHROMIUM" \
     $(chkDef "FALSE") "$CA_DILLO" "$CD_DILLO" \
+    $(chkDef "FALSE") "$CA_EDGE" "$CD_EDGE" \
     $(chkDef "FALSE") "$CA_EOLIE" "$CD_EOLIE" \
     $(chkDef "FALSE") "$CA_FALKON" "$CD_FALKON" \
     $(chkDef "TRUE") "$CA_FIREFOX" "$CD_FIREFOX" \
@@ -44,6 +45,7 @@ GUI=$(zenity --list --checklist --height 700 --width 950 \
     $(chkDef "FALSE") "$CA_FIREFOXNIGHTLY" "$CD_FIREFOXNIGHTLY" \
     $(chkDef "FALSE") "$CA_EPIPHANY" "$CD_EPIPHANY" \
     $(chkDef "FALSE") "$CA_CHROME" "$CD_CHROME" \
+    $(chkDef "FALSE") "$CA_CHROMEDEV" "$CD_CHROMEDEV" \
     $(chkDef "FALSE") "$CA_LYNX" "$CD_LYNX" \
     $(chkDef "FALSE") "$CA_MIDORI" "$CD_MIDORI" \
     $(chkDef "FALSE") "$CA_MIN" "$CD_MIN" \
@@ -364,6 +366,7 @@ then
     f_action_aur_install "$CA_BRAVE" brave-bin
     f_action_install "$CA_CHROMIUM" chromium
     f_action_install "$CA_DILLO" dillo
+    f_action_aur_install "$CA_EDGE" microsoft-edge-stable-bin 
     f_action_install "$CA_EOLIE" eolie
     f_action_install "$CA_FALKON" falkon
    	f_action_install "$CA_FIREFOX" "firefox firefox-i18n-fr"
@@ -373,6 +376,7 @@ then
    	f_action_aur_install "$CA_FIREFOXNIGHTLY" firefox-nightly
     f_action_install "$CA_EPIPHANY" epiphany
 	f_action_aur_install "$CA_CHROME" google-chrome
+	f_action_aur_install "$CA_CHROMEDEV" google-chrome-dev
     f_action_install "$CA_LYNX" lynx
    	f_action_install "$CA_MIDORI" midori
     f_action_install "$CA_MIN" min
