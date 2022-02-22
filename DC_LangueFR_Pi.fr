@@ -44,6 +44,9 @@ CD_CHROMIUM="La version libre/opensource de Google Chrome sans les fonctions né
 CA_DILLO="Dillo"
 CD_DILLO="Navigateur capable de tourner sur des ordinosaures"
 
+CA_EDGE="Edge"
+CD_EDGE="Nouvelle version du navigateur de Microsoft basé sur Chromium"
+
 CA_EOLIE="Eolie"
 CD_EOLIE="Un navigateur s'intégrant bien dans l'environnement Gnome"
 
@@ -68,8 +71,11 @@ CD_FIREFOXNIGHTLY="Toute dernière build en developpement, maj régulières, pot
 CA_EPIPHANY="Gnome Web (Epiphany)"
 CD_EPIPHANY="Navigateur de la fondation Gnome s'intégrant bien avec cet environnement"
 
-CA_CHROME="Google Chrome {AUR}"
+CA_CHROME="Google Chrome (stable) {AUR}"
 CD_CHROME="Le navigateur (propriétaire) de Google basé sur Chromium"
+
+CA_CHROMEDEV="Google Chrome Dev {AUR}"
+CD_CHROMEDEV="Version avancée de chrome pour ceux qui veulent tester les nouveautés de la future version"
 
 CA_LYNX="Lynx"
 CD_LYNX="Ce navigateur s'utilise uniquement en ligne de commande, utile depuis une console SSH"
